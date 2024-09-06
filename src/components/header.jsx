@@ -26,7 +26,7 @@ function Header() {
                 <p
                   onClick={() => navigate(item.url)}
                   key={i}
-                  className="text-[white] cursor-wait font-[400] text-[16px] leading-[16px] tracking-normal"
+                  className="text-[white] cursor-pointer font-[400] text-[16px] leading-[16px] tracking-normal"
                 >
                   {item.title}
                 </p>

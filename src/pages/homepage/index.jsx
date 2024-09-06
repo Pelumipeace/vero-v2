@@ -1,7 +1,13 @@
+import HeroSection from "./component/hero Section";
+import WhyUs from "./component/why Us";
+import Network from "./component/network";
+
 function HomePage() {
   return (
     <div>
-      <p>Home Page</p>
+      <HeroSection />
+      <WhyUs />
+      <Network />
     </div>
   );
 }
