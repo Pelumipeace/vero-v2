@@ -42,9 +42,10 @@ function ContactForm() {
               className="h-[45px] w-[full] border-[1px] border-[grey] outline-none rounded-[8px] px-[15px]"
             >
               <option value="">select state</option>
-              <option value="">Lagos</option>
-              <option value="">Abuja</option>
-              <option value="">Port-Harcort</option>
+              <option value="lagos">Lagos</option>
+              <option value="abuja">Abuja</option>
+              <option value="portHacourt">Port-Harcourt</option>
+              <option value="benin">Benin</option>
             </select>
 
             <div className="flex gap-[15px]">
