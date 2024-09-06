@@ -9,10 +9,10 @@ export const headerData = [
   },
   {
     title: "Contact",
-    url: "/",
+    url: "/contact",
   },
   {
-    title: "FAQs",
-    url: "/",
+    title: "Blog",
+    url: "/blog",
   },
 ];
