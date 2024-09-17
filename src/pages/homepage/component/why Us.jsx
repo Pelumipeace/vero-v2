@@ -3,12 +3,12 @@ import { WhyUsData } from "../../../db/whyUs";
 function WhyUs() {
   return (
     <div>
-      <div className="max-content py-[100px]">
+      <div className="max-content py-[100px] xlsm:py-[60px]">
         <div className="container">
-          <h2 className="text-[60px] text-center font-[600] font-playfair">
+          <h2 className="text-[60px] xlsm:text-[40px] text-center font-[600] font-playfair">
             Why Choose Veroco?
           </h2>
-          <div className="flex justify-center text-center">
+          <div className="flex justify-center text-center mt-[15px]">
             <p className="w-[795px]">
               Pentrar stands as your gateway to a traceable, compliant, and
               efficient export journey. With our unparalleled expertise,
@@ -21,7 +21,7 @@ function WhyUs() {
         </div>
         <div className="max-content py-[30px]">
           <div className="container">
-            <div className="flex justify-center gap-[20px] p-[20px] items-center">
+            <div className="flex justify-center gap-[20px] p-[20px] items-center sixm:flex-wrap">
               {WhyUsData.map((item, i) => (
                 <div key={i} className="flex flex-col items-center   ">
                   <img src={item.iconimg} alt="icon" className=" w-10 h-10 " />

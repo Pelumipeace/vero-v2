@@ -17,7 +17,7 @@ function ContactForm() {
   return (
     <div>
       <div>
-        <div className="flex flex-col gap-y-[15px] w-full shadow-lg rounded-[12px] px-[20px] py-[40px] ">
+        <div className="flex flex-col gap-y-[15px] w-full shadow-lg rounded-[12px] px-[20px] py-[40px]  ">
           <form action="" className="flex flex-col gap-[20px]">
             {/* Firstname */}
             <div name={formaData?.firstName} className="flex gap-[15px]">

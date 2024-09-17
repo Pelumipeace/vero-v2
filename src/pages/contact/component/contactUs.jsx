@@ -6,8 +6,8 @@ function ContactUs() {
     <div className="py-[80px]">
       <div className="max-content">
         <div className="container">
-          <div className="flex gap-[40px]">
-            <div className="w-[486px]">
+          <div className="flex gap-[40px] mdxl:flex-col">
+            <div className="w-[486px] mdxl:w-full">
               <p className="font-[700] text-[48px] leading-[24px]">
                 Get In Touch
               </p>
@@ -39,7 +39,7 @@ function ContactUs() {
                 </div>
               ))}
             </div>
-            <div className="w-[600px]">
+            <div className="w-[600px] mdxl:w-full">
               <ContactForm />
             </div>
           </div>
