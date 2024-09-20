@@ -1,6 +1,7 @@
 import HeroSection from "./component/hero Section";
 import WhyUs from "./component/why Us";
 import Network from "./component/network";
+import SlideSection from "./component/slide section";
 
 function HomePage() {
   return (
@@ -8,6 +9,7 @@ function HomePage() {
       <HeroSection />
       <WhyUs />
       <Network />
+      <SlideSection />
     </div>
   );
 }
