@@ -58,6 +58,7 @@ function Header() {
                 </button>
               </div>
 
+              {/* Show Menu icon on mobile */}
               <div className="hidden mdxl:block">
                 {open ? (
                   <img
@@ -80,6 +81,7 @@ function Header() {
         </div>
       </div>
 
+      {/* Show navlinks on Mobile */}
       {open && (
         <div className="bg-[white] h-screen p-[20px]">
           <div className="flex flex-col gap-[24px] ">
