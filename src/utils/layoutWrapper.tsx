@@ -4,11 +4,11 @@ import Footer from "../components/footer";
 
 function LayoutWrapper({ children }) {
   return (
-    <>
+    <div className="w-full">
       <Header />
       {children}
-      <Footer />
-    </>
+      {/* <Footer /> */}
+    </div>
   );
 }
 

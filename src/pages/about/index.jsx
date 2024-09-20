@@ -4,10 +4,13 @@ function AboutPage() {
   return (
     <div className="max-content py-[40px]">
       <div className="container">
-        <div className="mt-[70px] px-[40px] flex flex-col gap-y-[60px]">
+        <div className="mt-[70px] px-[20px] flex flex-col gap-y-[60px] ">
           {AboutData.map((data, i) => (
-            <div key={i} className="flex even:flex-row-reverse">
-              <div className="w-[55%]">
+            <div
+              key={i}
+              className="flex even:flex-row-reverse mdxl:even:flex-col mdxl:flex-col"
+            >
+              <div className="w-[55%] mdxl:w-full">
                 <img
                   src={data.iconimg}
                   alt=""
@@ -15,7 +18,7 @@ function AboutPage() {
                 />
               </div>
 
-              <div className="p-4 my-auto h-full w-[45%] font-playfair">
+              <div className="p-4 my-auto h-full w-[45%] font-playfair sixm:flex-wrap mdxl:w-full">
                 <h2 className="text-[40px] font-[800] text-[green] leading-[56px]">
                   {data.title}
                 </h2>

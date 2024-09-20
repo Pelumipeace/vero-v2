@@ -4,7 +4,7 @@ import Network from "./component/network";
 
 function HomePage() {
   return (
-    <div>
+    <div className="">
       <HeroSection />
       <WhyUs />
       <Network />

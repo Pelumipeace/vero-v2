@@ -2,21 +2,19 @@ import heroimg from "../../../assets/agric.jpg";
 
 function HeroSection() {
   return (
-    <div>
-      <div className="relative">
-        <img src={heroimg} alt="" className=" h-[600px] w-full" />
-        <div className="absolute top-0 w-full h-full bg-[black] opacity-80"></div>
-        <div className="absolute top-0 mt-[100px] ml-5 rounded-lg text-[white]">
-          <div className="max-content">
-            <div className="container">
-              <h2 className="text-4xl">Welcome to Our Website</h2>
-              <p className="text-2xl my-[16px]">
-                Want to know our different agricultural poduce?
-              </p>
-              <button className=" bg-[green]  py-2 px-4 text-[18px] ">
-                Learn more
-              </button>
-            </div>
+    <div className="relative">
+      <img src={heroimg} alt="" className=" h-[600px] xlsm:h-[500px] w-full" />
+      <div className="absolute top-0 w-full h-full bg-[black] opacity-80"></div>
+      <div className="absolute top-0 mt-[100px] ml-5 rounded-lg text-[white]">
+        <div className="max-content">
+          <div className="container">
+            <h2 className="text-4xl">Welcome to Our Website</h2>
+            <p className="text-2xl my-[16px]">
+              Want to know our different agricultural poduce?
+            </p>
+            <button className=" bg-[green]  py-2 px-4 text-[18px] ">
+              Learn more
+            </button>
           </div>
         </div>
       </div>
