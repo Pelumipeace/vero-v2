@@ -5,25 +5,19 @@ function SlideSection() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const animatedImage = imageData[currentIndex];
 
-  //   useEffect(() => {
-  //     const timer = setInterval(() => {
-  //       setCurrentIndex((prev) => (prev + 1) % imageData.length);
-  //     }, 10000);
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrentIndex((prev) => (prev + 1) % imageData.length);
+    }, 10000);
 
-  //     return () => {
-  //       clearInterval(timer);
-  //     };
-  //   }, []);
-
-  const handleImageChange = () => {
-    // setCurrentIndex(currentIndex + 1);
-    setCurrentIndex((prev) => (prev + 1) % imageData.length);
-  };
+    return () => {
+      clearInterval(timer);
+    };
+  }, []);
 
   return (
-    <div className="w-full ">
-      <button onClick={() => handleImageChange()}>Click Here</button>
-      <div className=" relative">
+    <div className="w-full pb-[160px]">
+      <div className=" relative md:hidden">
         <img src={animatedImage.img} alt="image" className="w-full h-[600px]" />
         <div className="absolute top-0 w-full h-full">
           <div className="grid grid-cols-4 gap-[20px] h-full">
@@ -42,15 +36,40 @@ function SlideSection() {
                       : "translate-y-[500px] transition duration-500 ease-linear"
                   }`}
                 >
-                  <p className="font-[700] text-[37px] leading-[32px]. ">
+                  <p className="font-[700] text-[30px] leading-[30px]. ">
                     {item.title}
                   </p>
-                  <p className="text-[27px] font-[500] leading-[25px] mt-[15px]">
+                  <p className="text-[21px] font-[400] leading-[20px] mt-[12px]">
                     {item.subtitle}
                   </p>
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </div>
+
+      {/* Mobile design */}
+      <div className="hidden md:block">
+        <div className="max-content">
+          <div className="container">
+            <div className="flex flex-col gap-[30px]">
+              {textData.map((item, i) => (
+                <div key={i}>
+                  <img
+                    src={item?.img}
+                    alt="img"
+                    className="w-full h-[350px] xlsm:h-[280px] rounded-[8px] object-cover"
+                  />
+                  <p className="mt-[16px] font-[600] text-[24px] leading-[32px]">
+                    {item?.title}
+                  </p>
+                  <p className="mt-[10px] font-[400] text-[14px] leading-[18px]">
+                    {item?.subtitle}
+                  </p>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>

@@ -5,12 +5,12 @@ function WhyUs() {
     <div>
       <div className="max-content py-[100px] xlsm:py-[60px]">
         <div className="container">
-          <h2 className="text-[60px] xlsm:text-[40px] text-center font-[600] font-playfair">
+          <h2 className="text-[60px] xlsm:text-[30px] text-center font-[600] font-playfair ">
             Why Choose Veroco?
           </h2>
           <div className="flex justify-center text-center mt-[15px]">
-            <p className="w-[795px]">
-              Pentrar stands as your gateway to a traceable, compliant, and
+            <p className="w-[795px] xlsm:text-[14px]">
+              Veroco stands as your gateway to a traceable, compliant, and
               efficient export journey. With our unparalleled expertise,
               regulatory prowess, and commitment to efficiency, Pentrar empowers
               you to navigate complexities with ease, setting the stage for
