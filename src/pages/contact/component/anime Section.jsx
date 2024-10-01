@@ -5,8 +5,9 @@ function AnimeSection() {
   const animatedImage = imageData[currentIndex];
 
   const handleImageChange = () => {
-    setCurrentIndex((prev) => (prev + 1) % imageData.lenght);
+    setCurrentIndex((prev) => (prev + 1) % imageData.length);
   };
+
   return (
     <div className="w-full">
       <button onClick={() => handleImageChange()}>Click Here</button>
@@ -25,14 +26,14 @@ function AnimeSection() {
                 <div
                   className={`text-[white] ${
                     currentIndex === i
-                      ? "-translate-y-[30px] transition duration-500 ease-linear bg-[red]"
+                      ? "-translate-y-[30px] transition duration-500 ease-linear"
                       : "translate-y-[500px] transition duration-500 ease-linear"
                   }`}
                 >
                   <p className="font-[700] text-[37px] leading-[32px]">
                     {item.title}
                   </p>
-                  <p className="text-[16px] font-[400] leading-[21px] mt-[15px]">
+                  <p className="text-[16px] font-[400] leading-[21px] mt-[12px]">
                     {item.subtitle}
                   </p>
                 </div>

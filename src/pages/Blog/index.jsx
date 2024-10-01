@@ -7,7 +7,7 @@ function BlogPage() {
         <div className="container">
           <div className="flex justify-center">
             <div className="w-[658px]">
-              <p className="font-playfair text-[48px] font0[700] leading-[60px]">
+              <p className="font-playfair text-[48px] font-[700] leading-[60px]">
                 Insight for Pentra Excellence
               </p>
               <div className="flex flex-col">

@@ -7,7 +7,7 @@ function LayoutWrapper({ children }) {
     <div className="w-full">
       <Header />
       {children}
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

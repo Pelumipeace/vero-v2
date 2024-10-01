@@ -4,8 +4,8 @@ function HeroSection() {
   return (
     <div className="relative">
       <img src={heroimg} alt="" className=" h-[600px] xlsm:h-[500px] w-full" />
-      <div className="absolute top-0 w-full h-full bg-[black] opacity-80"></div>
-      <div className="absolute top-0 mt-[100px] ml-5 rounded-lg text-[white]">
+      <div className="absolute z-10 top-0 w-full h-full bg-[black] opacity-80"></div>
+      <div className="absolute top-0 z-10 mt-[100px] ml-5 rounded-lg text-[white]">
         <div className="max-content">
           <div className="container">
             <h2 className="text-4xl">Welcome to Our Website</h2>

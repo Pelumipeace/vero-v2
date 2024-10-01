@@ -1,9 +1,9 @@
 import { headerData } from "../db/headerData";
-import logo from "../assets/logo.png";
 import openIcon from "../assets/open.svg";
 import closeIcon from "../assets/close.svg";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
+import { FaEdge } from "react-icons/fa";
 
 function Header() {
   const navigate = useNavigate();
@@ -21,17 +21,14 @@ function Header() {
     <div className="">
       <div className=" bg-[#0a3113]">
         <div className="max-content">
-          <div className="container py-[16px]">
-            <div className="flex  items-center justify-between">
+          <div className="container">
+            <div className="flex py-[16px] items-center justify-between">
               <div
                 className="flex gap-[12px] items-center"
                 onClick={() => handleNavigate("/")}
               >
-                <img
-                  src={logo}
-                  alt=""
-                  className="w-[40px] h-[40px] rounded-[50%]"
-                />
+                <FaEdge className="text-[35px] text-[white]" />
+
                 <p className="text-[white] font-[600] text-[32px] leading-[32px] tracking-normal">
                   Veroco
                 </p>
