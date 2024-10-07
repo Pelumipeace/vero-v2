@@ -32,7 +32,7 @@ function HearUs() {
               <p className="mt-[16px] font-[400] text-[14px]  leading-[18px]">
                 Veroco stands as your gateway to a traceable, compliant, and
                 efficient export journey. With our unparalleled expertise,
-                regulatory prowess, and commitment to efficiency, Pentrar
+                regulatory prowess, and commitment to efficiency, Veroco
                 empowers you to navigate complexities with ease, setting the
                 stage for sustainable growth and success. Join hands with
                 Pentrar today and unlock the full potential of your export
