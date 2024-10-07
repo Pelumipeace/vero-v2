@@ -22,7 +22,7 @@ function HearUs() {
 
   return (
     <div className="pb-[160px]">
-      <div className="max-container">
+      <div className="max-content">
         <div className="container">
           <div className="flex justify-center">
             <div className="w-[740px] sixm:w-full text-center">
