@@ -18,7 +18,7 @@ function Faq() {
             </p>
           </div>
           <div className="mt-[45px] flex justify-center">
-            <div className="w-[600px] sixm:w-full flex flex-col gap-[12px]">
+            <div className="w-[800px] sixm:w-full flex flex-col gap-[12px]">
               {faqData?.map((item, i) => (
                 <div
                   key={i}
