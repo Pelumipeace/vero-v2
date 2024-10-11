@@ -1,5 +1,6 @@
 export const faqData = [
   {
+
     que: "How can I place order of farm produce of my choice",
     ans: "You can by downloading our mobile app, select produce and quantity of choice,add to cart and follow payment method ",
   },
@@ -9,7 +10,7 @@ export const faqData = [
   },
   {
     que: "how long does it take to get farm produce to my location?",
-    ans: " Delivery to lagos is same day and other state is 2-3 days. ",
+    ans: "Delivery to lagos is same day and other state is 2-3 days.",
   },
 
   {
@@ -20,11 +21,16 @@ export const faqData = [
     que: "How can I track my order when in transit?",
     ans: "After payment is made, a tracking Id will be sent to you via mail.",
   },
+
   {
     que: "Can I return spoilt good and get a refund?",
     ans: "Any goods that gets to you in bad condition must be reported same day with prove, once confirmed refund will be made.",
   },
   {
+    que: "Can I get my orders (animal/farm produce) proccesed before delivery?",
+    ans: "Yes, but it attracts extra fees",
+  },
+{
     que: "Can I get my animals proccesed before delivery?",
     ans: "Yes, but it attracts extra fees ",
   },
