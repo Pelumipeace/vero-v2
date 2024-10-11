@@ -7,35 +7,35 @@ export const hearData = [
     iconImg: manA,
     position: "Exceutive Director",
     company: "Booosta",
-    country: "Nigeria",
+    country: "Lagos",
     subtitle:
-      "Veroco is simply the best.Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.",
+      "Veroco is simply the best online platform to order different kind of farm produce with swift and affordsble delivery services. Be on the movinf train by using our services. We cant wait to serve you better.",
   },
 
   {
     iconImg: manB,
     position: "Team Lead",
     company: "Korensi",
-    country: "USA",
+    country: "Ibadan",
     subtitle:
-      "Veroco is simply the best.Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.",
+      "Veroco is simply the best online platform to order different kind of farm produce with swift and affordsble delivery services nation wide. Be on the moving train by using our services. We cant wait to serve you better.",
   },
 
   {
     iconImg: manC,
     position: "Manager",
     company: "Facebook",
-    country: "Italy",
+    country: "Nassarawa",
     subtitle:
-      "Veroco is simply the best.Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.",
+      "Veroco is simply the best online platform to order different kind of farm produce with swift and affordsble delivery services. Be on the moving train by using our services. We cant wait to serve you better.",
   },
 
   {
     iconImg: manB,
     position: "Team Lead",
     company: "Korensi",
-    country: "USA",
+    country: "Ghana",
     subtitle:
-      "Veroco is simply the best.Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.",
+      "Veroco is simply the best online platform to order different kind of farm produce with swift and affordsble delivery services. Be on the moving train by using our services. We cant wait to serve you better.",
   },
 ];
