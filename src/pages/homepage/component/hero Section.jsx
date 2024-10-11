@@ -13,7 +13,7 @@ function HeroSection() {
               <p className="text-2xl my-[16px]">
                 Want to know our different agricultural poduce?
               </p>
-              <button className=" bg-[green]  py-2 px-4 text-[18px] ">
+              <button className=" bg-[green]  py-2 px-4 text-[18px] rounded-[8px] ">
                 Learn more
               </button>
             </div>
