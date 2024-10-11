@@ -29,6 +29,10 @@ export const faqData = [
     que: "Can I get my orders (animal/farm produce) proccesed before delivery?",
     ans: "Yes, but it attracts extra fees",
   },
+{
+    que: "Can I get my animals proccesed before delivery?",
+    ans: "Yes, but it attracts extra fees ",
+  },
   {
     que: "Can I get my animals proccesed before delivery?",
     ans: "Yes, but it attracts extra fees ",
