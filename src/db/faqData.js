@@ -1,6 +1,5 @@
 export const faqData = [
   {
-
     que: "How can I place order of farm produce of my choice",
     ans: "You can by downloading our mobile app, select produce and quantity of choice,add to cart and follow payment method ",
   },
@@ -10,7 +9,7 @@ export const faqData = [
   },
   {
     que: "how long does it take to get farm produce to my location?",
-    ans: "Delivery to lagos is same day and other state is 2-3 days.",
+    ans: " Delivery to lagos is same day and other state is 2-3 days. ",
   },
 
   {
@@ -31,6 +30,10 @@ export const faqData = [
     ans: "Yes, but it attracts extra fees",
   },
 {
+    que: "Can I get my animals proccesed before delivery?",
+    ans: "Yes, but it attracts extra fees ",
+  },
+  {
     que: "Can I get my animals proccesed before delivery?",
     ans: "Yes, but it attracts extra fees ",
   },
