@@ -20,9 +20,14 @@ export const faqData = [
     que: "How can I track my order when in transit?",
     ans: "After payment is made, a tracking Id will be sent to you via mail.",
   },
+
   {
     que: "Can I return spoilt good and get a refund?",
     ans: "Any goods that gets to you in bad condition must be reported same day with prove, once confirmed refund will be made.",
+  },
+  {
+    que: "Can I get my orders (animal/farm produce) proccesed before delivery?",
+    ans: "Yes, but it attracts extra fees",
   },
   {
     que: "Can I get my animals proccesed before delivery?",
