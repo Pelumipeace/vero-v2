@@ -3,7 +3,7 @@ import { BlogData } from "../../db/blogData";
 function BlogPage() {
   return (
     <div className="bg-[#FAFEFF] py-[40px]">
-      <div className="max-container">
+      <div className="max-content">
         <div className="container">
           <div className="flex justify-center">
             <div className="w-[658px]">
@@ -65,6 +65,7 @@ function BlogPage() {
               </div>
             </div>
           </div>
+
           <div className="">
             <div>
               <p className="font-[400] text-[32px] leading-[30px] mb-[32px]">
