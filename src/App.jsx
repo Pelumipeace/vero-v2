@@ -9,6 +9,7 @@ import LayoutWrapper from "./utils/layoutWrapper";
 import AboutPage from "./pages/about/index";
 import Contactpage from "./pages/contact/index";
 import Blogpage from "./pages/Blog/index";
+import Countries from "./pages/countries";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -42,6 +43,14 @@ const router = createBrowserRouter(
         element={
           <LayoutWrapper>
             <Blogpage />
+          </LayoutWrapper>
+        }
+      />
+      <Route
+        path="/countries"
+        element={
+          <LayoutWrapper>
+            <Countries />
           </LayoutWrapper>
         }
       />

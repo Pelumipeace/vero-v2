@@ -15,4 +15,8 @@ export const headerData = [
     title: "Blog",
     url: "/blog",
   },
+  {
+    title: "Countries",
+    url: "/countries",
+  },
 ];
