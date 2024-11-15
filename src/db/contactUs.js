@@ -11,8 +11,8 @@ export const ContactUsData = [
   },
   {
     iconimg: location,
-    title: "Contact us",
+    title: "Location",
     subtitle:
-      "For technical assistance or support-related queries, please contact our dedicated support team at.",
+      "For technical assistance or support-related queries, you can locate us at: 8, IgbehinAdun, Street, Pedro Gbagada Lagos, Nigeria.",
   },
 ];

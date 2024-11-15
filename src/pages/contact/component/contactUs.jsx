@@ -26,7 +26,7 @@ function ContactUs() {
                     />
                     <div>
                       <p className="font-[600] textp-[18px] leading-p-[27px]">
-                        {data.titile}
+                        {data.title}
                       </p>
                       <p className="mt-[8px] font-[400] text-[16px] leading-[24px]">
                         {data.subtitle}

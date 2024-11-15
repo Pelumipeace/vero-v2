@@ -11,13 +11,20 @@ function BlogPage() {
                 Insight for Pentra Excellence
               </p>
               <div className="flex flex-col">
-                <p className="font-[400px] text-[18px] leading-24px] mt-[16px]">
+                <p className="font-[400px] text-center text-[18px] leading-24px] mt-[16px]">
                   Subscribe and stay informed with our expert articles, guides
                   and industry trends to elevate your business.
                 </p>
-                <div className="">
-                  <input type=" " />
-                  <button>Subscribe</button>
+                <div className="mt-[15px]">
+                  <div className="flex gap-[5px]">
+                    <input
+                      type="text"
+                      className="h-[45px] w-full border-[1px] border-[gray] outline-none rounded-[8px] p-[15px]"
+                    />
+                    <button className=" bg-[green]  py-2 px-4 text-[18px] text-[white] rounded-[8px] ">
+                      Subscribe
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>

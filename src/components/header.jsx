@@ -24,7 +24,7 @@ function Header() {
           <div className="container">
             <div className="flex py-[16px] items-center justify-between">
               <div
-                className="flex gap-[12px] items-center"
+                className="flex gap-[12px] items-center cursor-pointer"
                 onClick={() => handleNavigate("/")}
               >
                 <FaEdge className="text-[35px] text-[white]" />

@@ -1,4 +1,5 @@
 import { FaEdge } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 import {
   BsFacebook,
@@ -8,6 +9,7 @@ import {
 } from "react-icons/bs";
 
 function Footer() {
+  const navigate = useNavigate();
   return (
     <div className=" bg-[#0a3113]">
       <div className="max-content py-[50px]">
@@ -16,6 +18,12 @@ function Footer() {
             <div className="flex gap-[10px]">
               <FaEdge className="text-[40px]" />
               <p className="font-[600] text-[32px] leading-[30px]">Veroco</p>
+            </div>
+            <div
+              className="font-[400] text-[20px] cursor-pointer"
+              onClick={() => navigate("/PrivacyPolicy")}
+            >
+              Privacy Policy
             </div>
             <div className="flex gap-[12px] mt-[20px]">
               <BsTwitterX />

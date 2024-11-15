@@ -9,6 +9,8 @@ import LayoutWrapper from "./utils/layoutWrapper";
 import AboutPage from "./pages/about/index";
 import Contactpage from "./pages/contact/index";
 import Blogpage from "./pages/Blog/index";
+import Productpage from "./pages/product/index";
+import PrivacyPolicy from "./pages/privacyPolicy";
 import Countries from "./pages/countries";
 
 const router = createBrowserRouter(
@@ -47,6 +49,14 @@ const router = createBrowserRouter(
         }
       />
       <Route
+        path="/product"
+        element={
+          <LayoutWrapper>
+            <Productpage />
+          </LayoutWrapper>
+        }
+      />
+      <Route
         path="/countries"
         element={
           <LayoutWrapper>
@@ -54,6 +64,15 @@ const router = createBrowserRouter(
           </LayoutWrapper>
         }
       />
+      <Route
+        path="/privacyPolicy"
+        element={
+          <LayoutWrapper>
+            <PrivacyPolicy />
+          </LayoutWrapper>
+        }
+      />
+
       <Route path="*" element={<>Page NotFound</>} />
     </Route>
   )
