@@ -16,6 +16,10 @@ export const headerData = [
     url: "/blog",
   },
   {
+    title: "Product",
+    url: "/Product",
+  },
+  {
     title: "Countries",
     url: "/countries",
   },
